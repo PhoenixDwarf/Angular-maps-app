@@ -10,6 +10,12 @@
         [for]="marker.id"
         class="label cursor-pointer flex justify-between"
       >
+        <button
+          class="btn btn-sm rounded-full p-1 h-[18px] mr-2 bg-red-800"
+          (click)="deleteMarker(marker)"
+        >
+          x
+        </button>
         <span class="label-text text-black text-xs text-wrap">{{
           marker.mapboxMarker.getLngLat() | json
         }}</span>
