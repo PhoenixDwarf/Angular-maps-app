@@ -5,7 +5,7 @@ import {
   signal,
   viewChild,
 } from '@angular/core';
-import mapboxgl, { LngLat, LngLatLike, MapMouseEvent } from 'mapbox-gl';
+import mapboxgl, { LngLatLike, MapMouseEvent } from 'mapbox-gl';
 import { environment } from '../../../environments/environment';
 import { v4 as UUIDV4 } from 'uuid';
 import { JsonPipe } from '@angular/common';
